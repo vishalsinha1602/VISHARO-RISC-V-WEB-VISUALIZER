@@ -6,7 +6,6 @@ def execution_log():
        
             <div class="log-title">EXECUTION LOG</div>
             <div id="log-box" class="log-box"></div>
-       
         """,
         unsafe_allow_html=True
     )

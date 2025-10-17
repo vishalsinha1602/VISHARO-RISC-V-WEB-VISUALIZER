@@ -135,3 +135,40 @@ button#step {
   font-weight: 800;
   color: #000;
 }
+
+/* -------------------- FOOTER -------------------- */
+.footer {
+  text-align: center;
+  color: #ccc;
+  font-family: monospace;
+  margin-top: 5px;
+  padding: 20px 10px;
+  background: #111;
+  border-radius: 10px;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.4);
+}
+
+.footer-title {
+  font-weight: 700;
+  color: #00ff88;
+  margin-bottom: 5px;
+  font-size: 16px;
+}
+
+.footer-sub {
+  color: #bbb;
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+.footer-team {
+  font-weight: 600;
+  color: #4b00ff;
+  margin-bottom: 4px;
+}
+
+.footer-names {
+  font-size: 13px;
+  color: #eee;
+  letter-spacing: 0.5px;
+}

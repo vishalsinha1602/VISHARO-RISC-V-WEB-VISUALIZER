@@ -1,10 +1,11 @@
 import streamlit as st
 
 def code_editor():
-    default_code = """.main:
+    default_code = """
+    .main:
     # write your code here
 
-.end:
+    .end:
     ebreak
 """
     code = st.text_area(
