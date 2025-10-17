@@ -4,12 +4,18 @@ A web-based interactive simulator for the **RISC-V** instruction set architectur
 
 ---
 
+# screenshots
+
+![alt text](image.png)
+![alt text](image-1.png)
+![alt text](image-2.png)
+
 ## ✨ Features
 
-* **Interactive Code Editor:** A dedicated area for writing and editing RISC-V assembly code.
-* **Real-time Register View:** Displays all 32 RISC-V registers ($\text{x0}$ to $\text{x31}$) with their standard ABI names ($\text{zero}$, $\text{ra}$, $\text{sp}$, etc.) and current values.
-* **Execution Controls:** Step-by-step execution and full run functionality.
-* **Detailed Log:** Provides an execution log showing the sequence of instructions and any simulation errors.
+- **Interactive Code Editor:** A dedicated area for writing and editing RISC-V assembly code.
+- **Real-time Register View:** Displays all 32 RISC-V registers ($\text{x0}$ to $\text{x31}$) with their standard ABI names ($\text{zero}$, $\text{ra}$, $\text{sp}$, etc.) and current values.
+- **Execution Controls:** Step-by-step execution and full run functionality.
+- **Detailed Log:** Provides an execution log showing the sequence of instructions and any simulation errors.
 
 ---
 
@@ -17,13 +23,13 @@ A web-based interactive simulator for the **RISC-V** instruction set architectur
 
 The application is organized into a modular structure for easy development and maintenance:
 
-| Directory/File | Purpose |
-| :--- | :--- |
-| `app.py` | The main Streamlit application entry point. |
-| `components/` | Contains reusable Streamlit UI components (e.g., `code_editor.py`, `register_file.py`). |
-| `utils/` | Contains core logic and non-UI functions (e.g., `simulator.py` for execution). |
-| `styles/` | Contains the custom CSS to style the application (e.g., `style.css`). |
-| `assets/` | Reserved for images, icons, or other static assets. |
+| Directory/File | Purpose                                                                                 |
+| :------------- | :-------------------------------------------------------------------------------------- |
+| `app.py`       | The main Streamlit application entry point.                                             |
+| `components/`  | Contains reusable Streamlit UI components (e.g., `code_editor.py`, `register_file.py`). |
+| `utils/`       | Contains core logic and non-UI functions (e.g., `simulator.py` for execution).          |
+| `styles/`      | Contains the custom CSS to style the application (e.g., `style.css`).                   |
+| `assets/`      | Reserved for images, icons, or other static assets.                                     |
 
 ---
 
@@ -36,12 +42,14 @@ You need **Python 3.8+** installed on your system.
 ### Steps
 
 1.  **Clone the Repository**
+
     ```bash
     git clone https://github.com/vishalsinha1602/VISHARO-RISC-V-WEB-VISUALIZER.git
     cd VISHARO-RISC-V-WEB-VISUALIZER
     ```
 
 2.  **Create a Virtual Environment (Recommended)**
+
     ```bash
     python -m venv venv
     # On Windows
@@ -75,8 +83,8 @@ You need **Python 3.8+** installed on your system.
 
 1.  Paste your RISC-V assembly code into the **Code Editor** area.
 2.  Use the **Control Buttons** to start the simulation:
-    * **Run:** Executes the entire program until completion.
-    * **Step:** Executes one instruction at a time, allowing you to trace changes.
+    - **Run:** Executes the entire program until completion.
+    - **Step:** Executes one instruction at a time, allowing you to trace changes.
 3.  Monitor the **Register File** and **Simulation Result** panels to track the program's state.
 
 ---
@@ -85,10 +93,10 @@ You need **Python 3.8+** installed on your system.
 
 This project was developed by the following team members:
 
-* **ROSELINE**
-* **HARSHITA**
-* **SHEWTA**
-* **VISHAL**
+- **ROSELINE**
+- **HARSHITA**
+- **SHEWTA**
+- **VISHAL**
 
 ---
 
