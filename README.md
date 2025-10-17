@@ -37,8 +37,8 @@ You need **Python 3.8+** installed on your system.
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git](https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git)
-    cd YOUR_REPO_NAME
+    git clone https://github.com/vishalsinha1602/VISHARO-RISC-V-WEB-VISUALIZER.git
+    cd VISHARO-RISC-V-WEB-VISUALIZER
     ```
 
 2.  **Create a Virtual Environment (Recommended)**
