@@ -1,0 +1,137 @@
+/* Overall Layout */
+body {
+  background-color: #1e1e1e;
+}
+
+.title {
+  text-align: left;
+  font-weight: 700;
+  color: white;
+  font-family: monospace;
+}
+
+textarea {
+  background-color: #222 !important;
+  color: white !important;
+  border-radius: 10px;
+  font-family: monospace;
+}
+
+.log-title {
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* General button style */
+div.stButton > button {
+  font-weight: bold !important;
+  border-radius: 6px !important;
+  color: white !important;
+  background-color: #000 !important;
+  border: none !important;
+  transition: background-color 0.2s ease;
+}
+
+/* Hover effect */
+div.stButton > button:hover {
+  background-color: #333 !important;
+}
+
+/* Custom colors for specific buttons */
+button[kind="run"],
+button#run {
+  background-color: green !important;
+}
+button[kind="reset"],
+button#reset {
+  background-color: red !important;
+}
+button[kind="step"],
+button#step {
+  background-color: orange !important;
+}
+
+/* Execution Log Box */
+
+.log-title {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.log-box {
+  background-color: #e6f0ff;
+  border-radius: 8px;
+  height: 260px;
+  overflow-y: auto;
+  padding: 10px;
+  font-family: monospace;
+  color: #00ff88;
+}
+
+/* register file components */
+
+.reg-title {
+  text-align: center;
+  color: #1e3a8a;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.reg-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #e6f0ff;
+  border-radius: 8px;
+  padding: 6px 10px;
+  margin-bottom: 8px;
+  font-family: monospace;
+  font-size: 14px;
+}
+
+.reg-name {
+  color: #1e40af;
+  font-weight: bold;
+}
+
+.reg-value {
+  background: white;
+  border-radius: 4px;
+  padding: 2px 8px;
+  color: #111;
+}
+
+/* simulation result  */
+
+.section-title {
+  text-align: center;
+  font-weight: 800;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.result-card {
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 4px 25px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  padding: 20px;
+  margin: 10px 0;
+}
+
+.result-title {
+  font-weight: 700;
+  color: #4b00ff;
+  letter-spacing: 0.5px;
+  margin-bottom: 6px;
+}
+
+.result-value {
+  font-size: 22px;
+  font-weight: 800;
+  color: #000;
+}
